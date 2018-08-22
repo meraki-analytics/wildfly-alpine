@@ -18,8 +18,8 @@ WORKDIR /opt/jboss
 
 # -- Install WildFly per jboss/wildfly image. See https://github.com/jboss-dockerfiles/wildfly/blob/master/Dockerfile.
 # -- Used under the MIT License (https://github.com/jboss-dockerfiles/wildfly/blob/master/LICENSE).
-ENV WILDFLY_VERSION 12.0.0.Final
-ENV WILDFLY_SHA1 b2039cc4979c7e50a0b6ee0e5153d13d537d492f
+ENV WILDFLY_VERSION 13.0.0.Final
+ENV WILDFLY_SHA1 3d63b72d9479fea0e3462264dd2250ccd96435f9
 ENV JBOSS_HOME /opt/jboss/wildfly
 
 RUN cd $HOME \
